@@ -1,0 +1,4 @@
+(modulo 2 2)
+(modulo 3 2)
+(modulo 300 455)
+(modulo "ha" 2)

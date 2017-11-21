@@ -1,0 +1,2 @@
+(letrec ((x (lambda () y)) (y 23)) (x))
+(letrec ((x (lambda () "ha")) (y x)) (y))

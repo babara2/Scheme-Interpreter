@@ -1,0 +1,19 @@
+(define append
+  (lambda (lst1 lst2)
+    (if (null? lst1)
+        lst2
+        (cons (car lst1) (append (cdr lst1) lst2)))))
+
+
+(define reverse
+  (lambda (lst)
+    (if (null? lst)
+        lst
+        (append (reverse (cdr lst)) (cons (car lst) (quote ()))))))
+
+(reverse (quote ()))
+(define x (quote (1 2)))
+(car (quote (("computer" "science") "is" "awesome")))
+(cdr (cdr (cdr (quote (("computer" "science") "is" "awesome")))))
+(reverse x)
+(cdr (reverse (quote (("computer" "science") "is"))))

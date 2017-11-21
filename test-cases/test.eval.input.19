@@ -1,0 +1,5 @@
+(append (list 1 2) (list 1 2) (list 1 2) (list 1 2))
+(append (list 1 2) (list 1 2))
+(append (quote (1 2)) 2)
+(append (cons 1 (quote ())) (cons 1 2))
+(append (cons 1 2) (cons 1 2))

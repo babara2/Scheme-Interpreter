@@ -1,0 +1,9 @@
+(define u 2)
+
+(letrec ((x (lambda () 2))
+
+         (y x)
+
+         (z u))
+
+  z)

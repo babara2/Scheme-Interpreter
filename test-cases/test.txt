@@ -1,0 +1,5 @@
+((lambda x (cdr x)) 1 2 3 4)
+((lambda (x) 2) 2)
+
+(letrec ((x (lambda () y)) (y 23)) (x))
+(letrec ((x (lambda () "ha")) (y x)) (y))

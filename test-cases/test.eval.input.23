@@ -1,0 +1,2 @@
+(begin #t)
+(begin (lambda (x) 2))

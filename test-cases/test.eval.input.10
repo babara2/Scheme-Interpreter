@@ -1,0 +1,7 @@
+(define append
+  (lambda (lst1 lst2)
+    (if (null? lst1)
+        lst2
+        (cons (car lst1) (append (cdr lst1) lst2)))))
+
+(append (quote (4 5)) (quote (6 7)))

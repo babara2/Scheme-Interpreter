@@ -1,0 +1,4 @@
+(letrec ((x (lambda () y)) (y 23)) (x))
+(letrec ((x 1)
+   (y (+ x x)))
+ y)
