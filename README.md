@@ -8,6 +8,10 @@ are parsed using a modified/simplified recursive descent parser, and
 are finally interpreted(see interpreter.c for details). The evaluation 
 is done using an environment (and frame) model.
 
+Limitations
+===========
+The program does not handle all scheme commands. For details, look at the 
+bindings and special forms in interpreter.c.
 
 Usage
 ===========
@@ -19,8 +23,6 @@ To Run:
 
 `testFile` could be selected from the list of test cases in directory:
 `test-cases`
-
-
 
 Credits
 ===========
